@@ -1,0 +1,10 @@
+@mixin check-box {
+  span {
+    width: 20px !important;
+    height: 20px;
+    &:after {
+      height: 10px;
+      left: 8px;
+    }
+  }
+}
